@@ -1,0 +1,41 @@
+{
+    "name": "cordova-plugin-browser-mock-camera",
+    "description": "",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "cordova": {
+        "id": "cordova-plugin-browser-mock-camera",
+        "platforms": [
+            "browser"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "ecosystem:phonegap",
+        "mock",
+        "camera"
+    ],
+    "engines":{
+        "cordova" : ">=3.0.0",
+        "cordovaDependencies": {
+            "0.0.1": {
+                "cordova-plugin-browser-mock": "^0.0.1"
+            }
+        }
+    },
+    "author": "",
+    "license": "MIT",
+    "scripts": {
+        "test": "jasmine-node --color spec"
+    },
+    "devDependencies": {
+        "jasmine-node": "1.14.5"
+    }
+}
